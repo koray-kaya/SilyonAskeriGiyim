@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundregister"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/register_pp_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        ></ImageView>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="330dp"
+            android:hint="İsim Soyisim"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/register_username_textview"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:layout_height="match_parent"
+                ></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="400dp"
+            android:hint="Email">
+            <EditText
+                android:id="@+id/register_email_textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:inputType="textEmailAddress"
+                ></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="470dp"
+        android:hint="Şifre">
+        <EditText
+            android:id="@+id/register_password_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPassword"
+            ></EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/register_registerbtn"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:text="Kayıt Ol"
+        android:background="@drawable/bg"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        ></Button>
+
+    <TextView
+        android:id="@+id/register_signinText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:textColor="@color/colorButton"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="260dp"
+        ></TextView>
+
+</RelativeLayout>

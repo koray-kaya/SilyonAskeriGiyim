@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/homeFragment_toolbar"
+        ></androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:weightSum="8"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homefragmenHepsiText"
+                android:textColor="@color/colorButton"
+                android:text="Herşey"
+                android:layout_weight="4"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homefragmentCokSatanText"
+            android:text="Çok Satanlar"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/homefragmenIndirimText"
+            android:text="İndirimdekiler"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeFragmentRecycler"
+        android:layout_marginTop="120dp"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:outlineSpotShadowColor="@color/colorButton"
+        android:layout_alignParentBottom="true">
+        
+        <ImageView
+            android:id="@+id/homefragment_homeicon"
+            android:layout_width="48dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/ic_home_renkli"
+            android:layout_gravity="center_vertical">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/homefragment_carticon"
+            android:layout_width="48dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/ic_cart"
+            android:layout_gravity="center_vertical">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/homefragment_profileicon"
+            android:layout_width="48dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/ic_person"
+            android:layout_gravity="center_vertical">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/homefragment_settingsicon"
+            android:layout_width="48dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/ic_settings"
+            android:layout_gravity="center_vertical">
+        </ImageView>
+        
+        
+        
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

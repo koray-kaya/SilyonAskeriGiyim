@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "160306754864",
+    "firebase_url": "https://silyon-askeri-giyim.firebaseio.com",
+    "project_id": "silyon-askeri-giyim",
+    "storage_bucket": "silyon-askeri-giyim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160306754864:android:b330929d4e52679d9184f5",
+        "android_client_info": {
+          "package_name": "com.koraykaya.silyonaskerigiyim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160306754864-qnek5t5isnp0p45009lv0f7ckir9nk81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koraykaya.silyonaskerigiyim",
+            "certificate_hash": "c16ddd8056943ef24ec785cce46f0bfe9734bf68"
+          }
+        },
+        {
+          "client_id": "160306754864-33sennkam9kl4vqq3jjefjsq34krcl3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEYXwIDuAMFsnfgLIfOqBEiO4OCDK4fUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160306754864-33sennkam9kl4vqq3jjefjsq34krcl3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
